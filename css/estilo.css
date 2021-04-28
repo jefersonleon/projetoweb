@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(226, 217, 217, 0.356);
+   
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 50px auto;
+    width: 40%;
+    background: rgb(175, 191, 241);
+    
+}
+.container h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: indigo;
+    font-size: 26pt;
+    font-weight: bold;
+    padding: 10px;
+}
+.container h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: indigo;
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 5px;
+}
+.box{
+    background: rgb(166, 221, 243);
+    padding: 10px;
+    
+    
+
+}
+
+.box .entrada{
+    padding: 5px;
+    margin: 0px auto;
+    color: red;
+}
+
+.box button{
+    width: 80px;
+    height: 40px;
+    background: rgb(88, 247, 88);
+    border-radius: 50px;
+}
+.box button:hover{
+    width: 80px;
+    height: 40px;
+    background: rgb(77, 248, 77);
+    border-radius: 20px 50px;
+    cursor: pointer;
+}
+
